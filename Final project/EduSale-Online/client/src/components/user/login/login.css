@@ -1,0 +1,25 @@
+.recapcha-log {
+    position: fixed;
+    top: 80%;
+    left: 17%;
+    transform: translate(-73%,0);
+    animation-duration: 1s;
+    animation-name:ricapcha-move ;
+
+}
+@keyframes ricapcha-move {
+    0% {top: 80%; left: 0%;}
+    100% {top: 80%; left: 17%;}
+}
+.recapcha-init {
+    position: fixed;
+    top: 80%;
+    left: 0%;
+    transform: translate(-73%,0);
+    animation-duration: 0.3s;
+    animation-name:recapcha-in ;
+}
+@keyframes recapcha-in {
+    0% {top: 80%; left: 17%;}
+    100% {top: 80%; left: 0%;}
+}

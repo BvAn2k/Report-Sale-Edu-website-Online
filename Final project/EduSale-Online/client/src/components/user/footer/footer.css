@@ -1,0 +1,19 @@
+
+.img-background {
+    background-color: linear-gradient(to top,rgba(0,0,0,0.7  ),rgba(0,0,0,0.1  ));
+    backdrop-filter: blur(20px);
+    opacity: 0.8;
+
+    
+}
+
+.img-background:hover {
+    box-shadow:5px 5px 5px 0px rgb(68, 68, 137) ;
+}
+.contener-img:hover {
+    box-shadow:5px 5px 5px 0px rgb(68, 68, 137) ;
+}
+.asitent-item {
+    background-color: linear-gradient(to top,rgba(0,0,0,0.7  ),rgba(0,0,0,0.1  ));
+    
+}

@@ -1,0 +1,46 @@
+@keyframes animationbox {
+    0% {background-color: white; left: 0px; top: 0px;height: 300px;width: 300px;}
+    100% {background-color:gray; left: 0px;top: 0px;width: 310px;height: 310px;}
+}
+.animation-box:hover {
+width: 310px;
+position: relative;
+height: 310px;
+background-color: gray;
+animation-duration: 1.5s;
+animation-name:animationbox ;
+
+}
+@keyframes itemMouse {
+    0% {top: -30px ;left: 360px;opacity: 0.5; }
+    100% {top: -30px; left: 310px;opacity: 1;}
+}
+.item-mouse {
+    
+    top: -30px;
+    left: 310px;
+animation-name: itemMouse;
+animation-duration: 1s;
+box-shadow: 0px 5px 8px 0px gray , 0px 5px 20px 0px gray ;
+}
+@keyframes style_mouse_left {
+    0% {top: 0px;left: -360px;opacity: 0.5;}
+    100% {top: 0px; left: -310px; opacity: 1;}
+}
+.item-left {
+top: 0px;
+left: -310px;
+animation-name: style_mouse_left ;
+animation-duration: 1s;
+box-shadow: 0px 5px 8px 0px gray , 0px 5px 20px 0px gray ;
+}
+.sucess-cart {
+    background-color: rgba(0,0,0,0.7  );
+    color: gray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
